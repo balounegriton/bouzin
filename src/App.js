@@ -1,27 +1,36 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import ReactPlayer from 'react-player';
+import Landing from './Landing.js'
+import Navbar from './Navbar.js'
+import Video1 from './Video1.js'
+import Video2 from './Video2.js'
+
+
+
 
 class App extends Component {
+
+
+
+
   render() {
+
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-   <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' playing />
-          </a>
-        </header>
-      </div>
+
+
+<div>
+
+<Navbar />
+<Landing /> 
+
+<div className="container-video"> <Video1 /> </div>
+
+<div className="container-video">  <Video2/></div>
+
+</div>
+    
+
+        
     );
   }
 }
