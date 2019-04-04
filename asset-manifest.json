@@ -1,15 +1,19 @@
 {
-  "main.css": "/bouzin/static/css/main.71feba8f.chunk.css",
-  "main.js": "/bouzin/static/js/main.f2a1b5e3.chunk.js",
-  "main.js.map": "/bouzin/static/js/main.f2a1b5e3.chunk.js.map",
+  "main.css": "/bouzin/static/css/main.9b30a4a7.chunk.css",
+  "main.js": "/bouzin/static/js/main.2776404a.chunk.js",
+  "main.js.map": "/bouzin/static/js/main.2776404a.chunk.js.map",
   "runtime~main.js": "/bouzin/static/js/runtime~main.67da9ce3.js",
   "runtime~main.js.map": "/bouzin/static/js/runtime~main.67da9ce3.js.map",
-  "static/js/2.8bc8a83a.chunk.js": "/bouzin/static/js/2.8bc8a83a.chunk.js",
-  "static/js/2.8bc8a83a.chunk.js.map": "/bouzin/static/js/2.8bc8a83a.chunk.js.map",
+  "static/js/2.4487de7c.chunk.js": "/bouzin/static/js/2.4487de7c.chunk.js",
+  "static/js/2.4487de7c.chunk.js.map": "/bouzin/static/js/2.4487de7c.chunk.js.map",
   "index.html": "/bouzin/index.html",
-  "precache-manifest.d66d37ab4e7e61b5b0ba4fb11297c76f.js": "/bouzin/precache-manifest.d66d37ab4e7e61b5b0ba4fb11297c76f.js",
+  "precache-manifest.91d1aa737ba69a890fbdb47ee902fea6.js": "/bouzin/precache-manifest.91d1aa737ba69a890fbdb47ee902fea6.js",
   "service-worker.js": "/bouzin/service-worker.js",
-  "static/css/main.71feba8f.chunk.css.map": "/bouzin/static/css/main.71feba8f.chunk.css.map",
+  "static/css/main.9b30a4a7.chunk.css.map": "/bouzin/static/css/main.9b30a4a7.chunk.css.map",
+  "static/media/App.css": "/bouzin/static/media/Gotham-Bold.9c35bf87.otf",
+  "static/media/kite.mp4": "/bouzin/static/media/kite.4562c752.mp4",
   "static/media/logoWhite.png": "/bouzin/static/media/logoWhite.15bb0261.png",
-  "static/media/loop.mp4": "/bouzin/static/media/loop.696bc775.mp4"
+  "static/media/loop.mp4": "/bouzin/static/media/loop.696bc775.mp4",
+  "static/media/ski.mp4": "/bouzin/static/media/ski.7d366416.mp4",
+  "static/media/yeux.mp4": "/bouzin/static/media/yeux.8e014b64.mp4"
 }
