@@ -1,41 +1,65 @@
+@font-face {
+  font-family: CODE;
+  src: url(CODE3X-R.OTF);
+}
+@font-face {
+  font-family: GotBold;
+  src: url(Gotham-Bold.otf);
+}
+@font-face {
+  font-family: Gotlight;
+  src: url(Gotham-light.otf);
+}
 body{
-  background: rgb(14, 13, 13)
+  font-family: GotBold;
+
+  background: rgb(20,20, 20)
 }
 .mouseNotHover {
-  opacity: 0.7;
-  -webkit-transition: opacity .7s ease-in-out;
-  -moz-transition: opacity .7s ease-in-out;
-  -ms-transition: opacity .7s ease-in-out;
-  -o-transition: opacity .7s ease-in-out;
-  transition: opacity .7s ease-in-out;
+  filter: grayscale(100%) contrast(200%);
+  width: 100%;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .colorBackground {
-  background: white;
+
   width: 57vw;
+  -webkit-transition: all .7s ease-in-out;
+  -moz-transition: all .7s ease-in-out;
+  -ms-transition: all .7s ease-in-out;
+  -o-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+}
+.colorBackground:hover {
+
+  width: 58vw;
+  -webkit-transition: all .7s ease-in-out;
+  -moz-transition: all .7s ease-in-out;
+  -ms-transition: all .7s ease-in-out;
+  -o-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
 }
 
 .mouseHover {
-  opacity: 1;
-  -webkit-transition: opacity .7s ease-in-out;
-  -moz-transition: opacity .7s ease-in-out;
-  -ms-transition: opacity .7s ease-in-out;
-  -o-transition: opacity .7s ease-in-out;
-  transition: opacity .7s ease-in-out;
+  filter:none;
+  width: 100%;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .container-video{
   margin-left: 35vw;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
-.navBar{
-  position: fixed;
-  width: 44px;
-  height: 100vh;
-  background: red;
-  margin-top: -30px;
-}
+
 
 .about{
   display: flex;
@@ -49,17 +73,61 @@ body{
 }
 
 .introVideo{
-  max-width: 30vw;
-  transform: rotate(-30deg);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
+  position: absolute;
+  margin-left: 23vw;
+  width: 60vw;
+  margin-top: 20vh;
+  -webkit-filter: grayscale(100%) ;
+  filter: grayscale(100%)  ;
+}
+
+.introVideoHover{
+  position: absolute;
+  margin-left: 23vw;
+  width: 60vw;
+  margin-top: 20vh;
+
+}
+
+
+
+.introVideo2{
+  position: absolute;
+  margin-left: 40vw;
+  width: 1.2vw;
+  margin-top: 60vh;
+  -webkit-filter: grayscale(100%) ;
+  filter: grayscale(100%) 
+}
+
+.introVideoHover2{
+  position: absolute;
+  margin-left: 40vw;
+  width: 1.2vw;
+  margin-top: 60vh;
+
+}
+
+.introVideo3{
+  position: absolute;
+  margin-left: 45vw;
+  width: 40vw;
+  margin-top: 40vh;
+  -webkit-filter: grayscale(100%) ;
+  filter: grayscale(100%) 
+}
+
+.introVideoHover3{
+  position: absolute;
+  margin-left: 45vw;
+  width: 40vw;
+  margin-top: 40vh;
+
 }
 
 .landing{
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+
 }
 
 .logoWhite{
@@ -70,19 +138,20 @@ body{
 }
 
 .titrePortfolio{
+  font-family: CODE;
   position: absolute;
-  color: white;
+  color: rgb(74, 74, 74);
   right: 0;
-  bottom: 0;
-  padding: 20px;
-  font-size: 40px
+  margin-right: 12vw;
+  margin-top: 81vh;
+  font-size: 3.5vw;
 }
 
 .nav{
   position: fixed;
   height: 100vh;
-  width: 35px;
-  background: whitesmoke;
+  width: 40px;
+  background: black;
   display: flex;
   justify-content: center;
 
@@ -93,16 +162,24 @@ body{
   transition: all .7s ease-in-out;
 }
 
+.nav:hover{
+  width: 65px;
+  -webkit-transition: all .7s ease-in-out;
+  -moz-transition: all .7s ease-in-out;
+  -ms-transition: all .7s ease-in-out;
+  -o-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+}
 
-.hiden{
+
+.navOpen{
   position: fixed;
   height: 100vh;
-  width: 0px;
-  background: whitesmoke;
+  width: 30vw;
+  background: black;
   display: flex;
   justify-content: center;
-  
-
+  z-index: 10000000;
   -webkit-transition: all .7s ease-in-out;
   -moz-transition: all .7s ease-in-out;
   -ms-transition: all .7s ease-in-out;
@@ -110,6 +187,108 @@ body{
   transition: all .7s ease-in-out;
 }
 
+
+
 .plusNav{
-  margin-top: 50vh
+  margin-top: 48vh;
+  color: rgb(74, 74, 74);
+  font-size: 44px;
+
+}
+
+
+.About{
+ opacity: 1;
+ -webkit-transition: all .7s ease-in-out;
+ -moz-transition: all .7s ease-in-out;
+ -ms-transition: all .7s ease-in-out;
+ -o-transition: all .7s ease-in-out;
+ transition: all .7s ease-in-out;
+  color: rgb(74, 74, 74);
+  font-size: 44px;
+
+}
+.AboutFermer{
+  opacity: 0;
+  display: none;
+  -webkit-transition: all .7s ease-in-out;
+  -moz-transition: all .7s ease-in-out;
+  -ms-transition: all .7s ease-in-out;
+  -o-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+}
+.plusNavOpen{
+
+
+display: none
+
+}
+
+
+.texte-hover-video{
+  color: black;
+  position: absolute;
+  margin-left: 23vw;
+  width: 60vw;
+  margin-top: 20vh;
+  display: -webkit-flex;
+
+}
+
+.dispflex{
+  font-size: 120px;
+  margin-top: -130px;
+}
+
+.texte-hover-video2{
+  color: black;
+  position: absolute;
+  margin-left: 40vw;
+  width: 1.2vw;
+  margin-top: 60vh;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+
+.dispflex2{
+  font-size: 85px;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  margin-top: 6vh;
+}
+
+
+.texte-hover-video3{
+  color: black;
+  position: absolute;
+  margin-left: 45vw;
+  width: 40vw;
+  margin-top: 40vh;
+
+
+}
+
+
+.dispflex3{
+  font-size: 100px;
+margin-top: -110px
+}
+
+.hiding{
+  display: none;
+}
+
+.projectInfo{
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.titreProjet{
+  font-family: Gotlight;
+  font-size: 30px;
+  color: rgb(74, 74, 74);
 }

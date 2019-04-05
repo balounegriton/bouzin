@@ -1,73 +1,37 @@
 import React, { Component } from "react";
 import "./App.css";
-import ReactPlayer from "react-player";
+import loop from './video web/loop.mp4';
 
-class Video1 extends Component {
-  state = {
-    playing: false,
-    mediaStart: false
+class Video2 extends Component {
+
+    playVideo = () => {
+
+   
+        this.refs.vidRef.play();
+        document.getElementById("video2").className = "mouseHover";
     
-  };
-
-
-  hoverOn = url => {
-    this.setState({ playing: true ,
-      MouseOver: true
-    })
-  
-  document.getElementById("video2").className = "mouseHover";
-  }
-  
-  
-  hoverOff = url => {
-    this.setState({MouseOver:false})
-    if (this.state.mediaStart === false ) {
-     setTimeout(this.hoverOff,50)
     }
-  
-  else{
-    this.setState({ playing: false })
-    document.getElementById("video2").className = "mouseNotHover"
-  }
-  }
-
-
-  onPause = () => {
-    if(this.state.MouseOver === true) {
-console.log("ouvir page")
-
+    
+    pauseVideo = () =>{
+      // Pause as well
+      this.refs.vidRef.pause();
+      document.getElementById("video2").className = "mouseNotHover"
     }
-    this.setState({ playing: false })
-
-  }
-
-
-  onStart = () => {
-
-    this.setState({ mediaStart: true })
-
-
-
-  }
-  render() {
-    const { playing } = this.state;
-    return (
-      <div className="colorBackground">
-        <div id="video2" className="mouseNotHover">
-          <ReactPlayer
-            url="https://www.dailymotion.com/video/x74yjih"
-            playing={playing}
-            onPause={this.onPause}
-            onMouseEnter={this.hoverOn}
-            onMouseLeave={this.hoverOff}
-            onStart={this.onStart}
-            width="57vw"
-            height="32vw"
-          />
+    
+    // You can pass your function references to your child components as props (here passing down to the Buttons component)
+    render() {
+      return(
+        <div className="colorBackground">
+          <video id="video2" className="mouseNotHover" ref="vidRef" src={loop} type="video/mp4"  onMouseEnter={this.playVideo}
+            onMouseLeave={this.pauseVideo}></video>
+          
+          <div className="projectInfo">   <div className="titreProjet">Titre Du Projet  </div>  <div className="titreProjet"> Type  </div></div>
         </div>
-      </div>
-    );
+      );
+    }
   }
-}
+  
 
-export default Video1;
+
+
+export default Video2;
