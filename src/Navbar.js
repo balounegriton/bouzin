@@ -38,9 +38,9 @@ if(!this.state.open){
     return (
 
 
-<div id='nav' className="nav" onClick={this.handleClick}>
-<p id="about" className='AboutFermer'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-<p id="plusNav" className='plusNav'>+</p>
+<div id='nav' className="nav" >
+<p id="about" className='AboutFermer'>I am a creative technologist. I use leading edge technology to execute creative marketing projects. I combine my motion designer and video editor background with my programming skills, to bring creative ideas to life. My expertise and my passion for visual </p>
+<p id="plusNav" className='plusNav' onClick={this.handleClick}>+</p>
 </div>
     
 

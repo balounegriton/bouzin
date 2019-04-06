@@ -44,7 +44,7 @@ class Landing extends Component {
 <div className="landing">
 
 <div>
-  <div id="videoA" className="hiding"> <div className="dispflex">MOTION</div>   </div>
+  <div id="videoA" className="hiding"> <div className="dispflex">MOTION DESIGNER</div>   </div>
 <video className='introVideo' autoPlay loop muted onMouseEnter={this.hoverOn}
             onMouseLeave={this.hoverOff}>
   <source src={kite} type='video/mp4' />
@@ -53,7 +53,7 @@ class Landing extends Component {
 
 
                 <div>
-                <div id="videoB" className="hiding"> <div className="dispflex2">WEB DESIGN</div>   </div>
+                <div id="videoB" className="texte-hover-video2"> <div className="dispflex2">WEB.DESIGNER</div>   </div>
                   <video  className='introVideo2' autoPlay loop muted onMouseEnter={this.hoverOn2}
             onMouseLeave={this.hoverOff}  onClick={this.scroll}>
                     <source src={ski} type='video/mp4' />
@@ -62,7 +62,7 @@ class Landing extends Component {
 
 
                 <div>
-                <div id="videoC" className="hiding"> <div className="dispflex3">VIDEO</div>   </div>
+                <div id="videoC" className="hiding"> <div className="dispflex3">VIDEO DIRECTOR</div>   </div>
                   <video  className='introVideo3' autoPlay loop muted onMouseEnter={this.hoverOn3}
             onMouseLeave={this.hoverOff}>
                     <source src={yeux} type='video/mp4' />

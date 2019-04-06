@@ -13,7 +13,7 @@
 body{
   font-family: GotBold;
 
-  background: rgb(20,20, 20)
+  background: black;
 }
 .mouseNotHover {
   filter: grayscale(100%) contrast(200%);
@@ -140,7 +140,7 @@ body{
 .titrePortfolio{
   font-family: CODE;
   position: absolute;
-  color: rgb(74, 74, 74);
+  color:rgb(43, 43, 43);
   right: 0;
   margin-right: 12vw;
   margin-top: 81vh;
@@ -150,33 +150,18 @@ body{
 .nav{
   position: fixed;
   height: 100vh;
-  width: 40px;
-  background: black;
+  width:  14vh;
   display: flex;
   justify-content: center;
-
-  -webkit-transition: all .7s ease-in-out;
-  -moz-transition: all .7s ease-in-out;
-  -ms-transition: all .7s ease-in-out;
-  -o-transition: all .7s ease-in-out;
-  transition: all .7s ease-in-out;
 }
 
-.nav:hover{
-  width: 65px;
-  -webkit-transition: all .7s ease-in-out;
-  -moz-transition: all .7s ease-in-out;
-  -ms-transition: all .7s ease-in-out;
-  -o-transition: all .7s ease-in-out;
-  transition: all .7s ease-in-out;
-}
+
 
 
 .navOpen{
   position: fixed;
   height: 100vh;
   width: 30vw;
-  background: black;
   display: flex;
   justify-content: center;
   z-index: 10000000;
@@ -191,11 +176,31 @@ body{
 
 .plusNav{
   margin-top: 48vh;
-  color: rgb(74, 74, 74);
-  font-size: 44px;
+  color:rgb(43, 43, 43);
+  font-size: 84px;
+  margin-bottom: auto;
+  cursor: default;
+  -webkit-transition: all .7s ease-in-out;
+  -moz-transition: all .7s ease-in-out;
+  -ms-transition: all .7s ease-in-out;
+  -o-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
 
 }
-
+.plusNav:hover{
+  margin-top: 47.5vh;
+  margin-left: 30px;
+  color:rgb(43, 43, 43);
+  font-size: 94px;
+  
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transition: all .7s ease-in-out;
+  -moz-transition: all .7s ease-in-out;
+  -ms-transition: all .7s ease-in-out;
+  -o-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+}
 
 .About{
  opacity: 1;
@@ -204,7 +209,7 @@ body{
  -ms-transition: all .7s ease-in-out;
  -o-transition: all .7s ease-in-out;
  transition: all .7s ease-in-out;
-  color: rgb(74, 74, 74);
+  color: rgb(43, 43, 43);
   font-size: 44px;
 
 }
@@ -219,14 +224,31 @@ body{
 }
 .plusNavOpen{
 
-
-display: none
+  margin-top: 3px;
+  color:rgb(43, 43, 43);
+  font-size: 74px;
+  margin-bottom: auto;
+  cursor: default;
+  transform: rotate(45deg);
+  -webkit-transition: all .7s ease-in-out;
+  -moz-transition: all .7s ease-in-out;
+  -ms-transition: all .7s ease-in-out;
+  -o-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
 
 }
 
+.plusNavOpen:hover{
+  transform: rotate(135deg);
+  -webkit-transition: all .7s ease-in-out;
+  -moz-transition: all .7s ease-in-out;
+  -ms-transition: all .7s ease-in-out;
+  -o-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+}
 
 .texte-hover-video{
-  color: black;
+  color: rgb(43, 43, 43);
   position: absolute;
   margin-left: 23vw;
   width: 60vw;
@@ -236,12 +258,12 @@ display: none
 }
 
 .dispflex{
-  font-size: 120px;
-  margin-top: -130px;
+  font-size: 40x;
+  margin-top: -25px;
 }
 
 .texte-hover-video2{
-  color: black;
+  color: rgb(43, 43, 43);
   position: absolute;
   margin-left: 40vw;
   width: 1.2vw;
@@ -254,15 +276,18 @@ display: none
 
 
 .dispflex2{
-  font-size: 85px;
+  font-size: 18px;
+  -webkit-transform-origin: left top;
+  transform-origin: left top;
+  margin-left: 220px;
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
-  margin-top: 6vh;
+
 }
 
 
 .texte-hover-video3{
-  color: black;
+  color: rgb(43, 43, 43);
   position: absolute;
   margin-left: 45vw;
   width: 40vw;
@@ -273,8 +298,8 @@ display: none
 
 
 .dispflex3{
-  font-size: 100px;
-margin-top: -110px
+  font-size: 40x;
+  margin-top: -25px;
 }
 
 .hiding{
@@ -289,6 +314,6 @@ margin-top: -110px
 
 .titreProjet{
   font-family: Gotlight;
-  font-size: 30px;
-  color: rgb(74, 74, 74);
+  font-size: 35px;
+  color:rgb(43, 43, 43)
 }
