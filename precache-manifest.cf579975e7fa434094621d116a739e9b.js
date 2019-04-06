@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/bouzin/static/media/CODE3X-R.6a65d5a6.OTF"
   },
   {
-    "revision": "7ed854966c88a94776bf",
-    "url": "/bouzin/static/css/main.16051e39.chunk.css"
+    "revision": "2e15a33e850f5d519b48",
+    "url": "/bouzin/static/css/main.538e9d47.chunk.css"
   },
   {
     "revision": "ddfa6e778f4e8f13a729",
     "url": "/bouzin/static/js/runtime~main.67da9ce3.js"
   },
   {
-    "revision": "c1129e4eaaf39820a755",
-    "url": "/bouzin/static/js/2.1d62bf6b.chunk.js"
+    "revision": "447a5580c794c8b8113a",
+    "url": "/bouzin/static/js/2.f40420bf.chunk.js"
   },
   {
     "revision": "696bc775a92f8acf42eb3c3fab9405e4",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/bouzin/static/media/Gotham-Bold.9c35bf87.otf"
   },
   {
-    "revision": "7ed854966c88a94776bf",
-    "url": "/bouzin/static/js/main.efb980aa.chunk.js"
+    "revision": "2e15a33e850f5d519b48",
+    "url": "/bouzin/static/js/main.2d30aa4b.chunk.js"
   },
   {
     "revision": "23db97139feddf3d99fc676ddb418219",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/bouzin/static/media/logoWhite.15bb0261.png"
   },
   {
-    "revision": "9e4551e531c216e4bdc771a011f07087",
+    "revision": "eb52dacf43ee16ac59cd9856702a1107",
     "url": "/bouzin/index.html"
   }
 ];

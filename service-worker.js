@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/bouzin/precache-manifest.43029060922242c166f5a43cd8036b31.js"
+  "/bouzin/precache-manifest.cf579975e7fa434094621d116a739e9b.js"
 );
 
 workbox.clientsClaim();
