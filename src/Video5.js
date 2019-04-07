@@ -22,6 +22,7 @@ class Video5 extends Component {
           className="mouseNotHover"
           ref="vidRef"
           src={loop}
+          loop
           type="video/mp4"
           onMouseEnter={this.playVideo}
           onMouseLeave={this.pauseVideo}

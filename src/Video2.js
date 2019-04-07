@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import loop from "./videoProjet/loop.mp4";
+import loop from "./videoProjet/canicross.mp4";
 
 class Video2 extends Component {
   playVideo = () => {
@@ -23,6 +23,7 @@ class Video2 extends Component {
           ref="vidRef"
           src={loop}
           type="video/mp4"
+          loop
           onMouseEnter={this.playVideo}
           onMouseLeave={this.pauseVideo}
         />
