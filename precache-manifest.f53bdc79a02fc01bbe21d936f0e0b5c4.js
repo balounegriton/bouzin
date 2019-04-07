@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/bouzin/static/media/yeux.8e014b64.mp4"
   },
   {
-    "revision": "c7c83edd1f971987b2ea",
+    "revision": "0ace1873c00caedd08b5",
     "url": "/bouzin/static/css/main.4587447f.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/bouzin/static/media/Gotham-Medium.b34a7272.otf"
   },
   {
-    "revision": "c7c83edd1f971987b2ea",
-    "url": "/bouzin/static/js/main.5f59df30.chunk.js"
+    "revision": "0ace1873c00caedd08b5",
+    "url": "/bouzin/static/js/main.79785cf8.chunk.js"
   },
   {
     "revision": "7d366416d86dc0215d221e2e4b18c8d8",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/bouzin/static/media/loop.696bc775.mp4"
   },
   {
-    "revision": "c152f9611735f288d2a2102fcd144fcd",
+    "revision": "c1acebb965d304265355a2de9a5be8ea",
     "url": "/bouzin/index.html"
   }
 ];
