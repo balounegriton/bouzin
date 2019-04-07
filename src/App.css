@@ -10,10 +10,16 @@
   font-family: Gotlight;
   src: url(Gotham-light.otf);
 }
+
+@font-face {
+  font-family: GotMed;
+  src: url(Gotham-Medium.otf);
+}
 body{
   font-family: GotBold;
 
   background: black;
+  
 }
 .mouseNotHover {
   filter: grayscale(100%) contrast(200%);
@@ -56,7 +62,7 @@ body{
 
 .container-video{
   margin-left: 35vw;
-  margin-top: 50px;
+  margin-top: 75px;
 }
 
 
@@ -65,6 +71,7 @@ body{
   display: flex;
   justify-content: center;
   margin-top: 50vh;
+  
 }
 
 .texte{
@@ -138,19 +145,19 @@ body{
 }
 
 .titrePortfolio{
-  font-family: CODE;
+  font-family: GotMed;
   position: absolute;
-  color:rgb(43, 43, 43);
+  color: rgb(43, 43, 43);
   right: 0;
   margin-right: 12vw;
-  margin-top: 81vh;
-  font-size: 3.5vw;
+  margin-top: 86vh;
+  font-size: 1.9vw;
 }
 
 .nav{
   position: fixed;
   height: 100vh;
-  width:  14vh;
+  width:  89px;
   display: flex;
   justify-content: center;
 }
@@ -177,7 +184,7 @@ body{
 .plusNav{
   margin-top: 48vh;
   color:rgb(43, 43, 43);
-  font-size: 84px;
+  font-size: 70px;
   margin-bottom: auto;
   cursor: default;
   -webkit-transition: all .7s ease-in-out;
@@ -188,10 +195,7 @@ body{
 
 }
 .plusNav:hover{
-  margin-top: 47.5vh;
-  margin-left: 30px;
-  color:rgb(43, 43, 43);
-  font-size: 94px;
+ 
   
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
@@ -203,6 +207,8 @@ body{
 }
 
 .About{
+  margin-left: 15px;
+  line-height: normal;
  opacity: 1;
  -webkit-transition: all .7s ease-in-out;
  -moz-transition: all .7s ease-in-out;
@@ -316,4 +322,26 @@ body{
   font-family: Gotlight;
   font-size: 35px;
   color:rgb(43, 43, 43)
+}
+
+.last{
+  margin-bottom: 100px
+}
+
+.fadeLoading{
+  opacity: 0;
+  -webkit-transition: all .7s ease-in-out;
+  -moz-transition: all .7s ease-in-out;
+  -ms-transition: all .7s ease-in-out;
+  -o-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+}
+
+.fadeLoadingDone{
+  opacity: 1;
+  -webkit-transition: all .7s ease-in-out;
+  -moz-transition: all .7s ease-in-out;
+  -ms-transition: all .7s ease-in-out;
+  -o-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
 }
