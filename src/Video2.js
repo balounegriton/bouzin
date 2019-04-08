@@ -3,6 +3,10 @@ import "./App.css";
 import loop from "./videoProjet/canicross.mp4";
 
 class Video2 extends Component {
+  componentDidMount = () => {
+    this.refs.vidRef.pause();
+  }
+
   playVideo = () => {
     this.refs.vidRef.play();
     document.getElementById("video2").className = "mouseHover";
@@ -23,7 +27,9 @@ class Video2 extends Component {
           ref="vidRef"
           src={loop}
           type="video/mp4"
+          autoPlay
           loop
+          muted
           onMouseEnter={this.playVideo}
           onMouseLeave={this.pauseVideo}
         />

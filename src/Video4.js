@@ -3,6 +3,10 @@ import "./App.css";
 import loop from "./videoProjet/stairsMaster.mp4";
 
 class Video4 extends Component {
+  componentDidMount = () => {
+    this.refs.vidRef.pause();
+  }
+  
   playVideo = () => {
     this.refs.vidRef.play();
     document.getElementById("video4").className = "mouseHover";
@@ -22,7 +26,9 @@ class Video4 extends Component {
           className="mouseNotHover"
           ref="vidRef"
           src={loop}
+          autoPlay
           loop
+          muted
           type="video/mp4"
           onMouseEnter={this.playVideo}
           onMouseLeave={this.pauseVideo}

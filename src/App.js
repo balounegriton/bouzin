@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
-import { HashRouter, Route, Switch } from 'react-router-dom'
+import { HashRouter, Route, Switch, withRouter } from 'react-router-dom'
 import Home from "./Home.js";
-import Project1 from './Project1.js'
+import Project1 from './component/Project1.js'
 
 class App extends Component {
   componentDidMount() {
@@ -10,7 +10,7 @@ class App extends Component {
       document.getElementById("load").style.display = "none"
       document.getElementById("root").className = ""
      this.fade()
-    }, 2000);
+    }, 20);
 
   }
 
@@ -32,7 +32,7 @@ class App extends Component {
           <Route exact path='/' component={Home} />
        
 
-          <Route path='/project1' component={Project1 } />
+          <Route path='/demo' component={Project1 } />
 
 
         </Switch>
@@ -48,4 +48,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App

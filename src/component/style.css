@@ -1,0 +1,69 @@
+.videoLanding{
+    width: 100vw;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.video{
+    width: 90vw;
+    height: 100vh
+
+}
+
+
+
+.video-wrapper {
+    margin: auto 0 auto 0;
+}
+
+.youtube {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+.youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.pageBackground{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1000;
+}
+
+.emptydiv{
+    width: 100vh;
+    height: 100vh;
+}
+
+.image{
+    width: 100vw
+}
+
+.paragraph{
+    color:rgb(43, 43, 43);
+  font-size: 70px;
+  margin-left: 60px;
+  margin-right: 60px
+}
+
+.exit{
+    color:rgb(43, 43, 43);
+    position: fixed;
+    font-size: 60px;
+    z-index: 1000;
+    right: 0;
+    margin-right: 3vw;
+    cursor: pointer;
+}
+

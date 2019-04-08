@@ -8,6 +8,9 @@ class Landing extends Component {
   scroll = () => {
     this.props.parentMethod();
   };
+  scroll2 = () => {
+    this.props.parentMethod2();
+  };
   hoverOn = () => {
     document.getElementById("videoA").className = "texte-hover-video";
   };
@@ -40,6 +43,7 @@ class Landing extends Component {
             muted
             onMouseEnter={this.hoverOn}
             onMouseLeave={this.hoverOff}
+            onClick={this.scroll}
           >
             <source src={kite} type="video/mp4" />
           </video>{" "}
@@ -57,7 +61,7 @@ class Landing extends Component {
             muted
             onMouseEnter={this.hoverOn2}
             onMouseLeave={this.hoverOff}
-            onClick={this.scroll}
+          
           >
             <source src={ski} type="video/mp4" />
           </video>
@@ -75,6 +79,7 @@ class Landing extends Component {
             muted
             onMouseEnter={this.hoverOn3}
             onMouseLeave={this.hoverOff}
+            onClick={this.scroll2}
           >
             <source src={yeux} type="video/mp4" />
           </video>

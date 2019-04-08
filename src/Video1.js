@@ -1,8 +1,17 @@
 import React, { Component } from "react";
 import "./App.css";
-import loop from "./videoProjet/unmarked.mp4";
+import loop from "./videoProjet/loop.mp4";
+
+
 
 class Video1 extends Component {
+
+  componentDidMount = () => {
+    this.refs.vidRef.pause();
+  }
+
+
+
   playVideo = () => {
     this.refs.vidRef.play();
     document.getElementById("video1").className = "mouseHover";
@@ -10,6 +19,7 @@ class Video1 extends Component {
 
   pauseVideo = () => {
     // Pause as well
+
     this.refs.vidRef.pause();
     document.getElementById("video1").className = "mouseNotHover";
   };
@@ -23,7 +33,9 @@ class Video1 extends Component {
           ref="vidRef"
           src={loop}
           type="video/mp4"
+          autoPlay
           loop
+          muted
           onMouseEnter={this.playVideo}
           onMouseLeave={this.pauseVideo}
         />

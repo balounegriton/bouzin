@@ -8,11 +8,29 @@ import Video3 from "./Video3.js";
 import Video4 from "./Video4.js";
 import Video5 from "./Video5.js";
 import scrollToComponent from "react-scroll-to-component";
+import { Link, withRouter } from 'react-router-dom'
 
-class App extends Component {
+class Home extends Component {
+
+  componentDidMount() {
+   
+
+  }
+
+
   someMethod = () => {
-    console.log("bar");
+ 
     scrollToComponent(this.sectionMotion, {
+      offset: 0,
+      align: "top",
+      duration: 1500
+    });
+  };
+
+
+  scrollVideo = () => {
+ 
+    scrollToComponent(this.sectionDemo, {
       offset: 0,
       align: "top",
       duration: 1500
@@ -26,31 +44,34 @@ class App extends Component {
       <div>
         <Navbar />
 
-        <Landing parentMethod={this.someMethod} />
+        <Landing parentMethod={this.someMethod} parentMethod2={this.scrollVideo} />
 
-        <div className="container-video">
-          <Video1 />
-        </div>
+        <Link to='/demo' ><div className="container-video" >
+          <Video1 ref={section => {
+              this.sectionDemo = section;
+            }} />
+        </div></Link>
 
-        <div className="container-video">
+        <Link to='/demo'  > <div className="container-video">
           <Video2 />
-        </div>
+        </div></Link>
 
         <div className="container-video">
-          <Video3 />
+          <Video3 
+            ref={section => {
+              this.sectionMotion = section;
+            }}/>
         </div>
 
         <div className="container-video">
           <Video4
-            ref={section => {
-              this.sectionMotion = section;
-            }}
+          
           />
         </div>
 
         <div className="container-video last">
           <Video5 />
-        </div>
+        </div> 
       </div>
     );
 
@@ -61,4 +82,5 @@ class App extends Component {
   }
 }
 
-export default App;
+
+export default withRouter(Home)

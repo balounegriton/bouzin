@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://balounegriton.github.io/bouzin/",
   "dependencies": {
+    "detect-browser": "^4.2.0",
     "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
     "react": "^16.8.6",

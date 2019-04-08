@@ -22,13 +22,17 @@ body{
   
 }
 .mouseNotHover {
-  filter: grayscale(100%) brightness(76%) contrast(205%);;
+  filter: grayscale(100%)  contrast(200%);;
   width: 100%;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -ms-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
+}
+
+.darkerMode{
+  filter: brightness(76%) grayscale(100%)  contrast(200%);
 }
 
 .colorBackground {
