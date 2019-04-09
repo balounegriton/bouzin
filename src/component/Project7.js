@@ -55,7 +55,18 @@ class Project7 extends Component {
         <div className="image-content">
           <img alt="" src={img4} className=" image" />
         </div>
+        <div className="video-wrapper">
+          <div className="youtube">
+            <iframe src="https://player.vimeo.com/video/200273778"
+              title="demo"
+              className=""
+              frameBorder="0"
 
+              webkitallowfullscreen="true"
+              mozallowfullscreen="true"
+              allowFullScreen></iframe>
+          </div>
+        </div>
       
 
     
