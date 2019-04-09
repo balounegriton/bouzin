@@ -6,6 +6,10 @@ import img3 from "./image/kite.jpg"
 import img4 from "./image/mountaine2.jpg"
 import img5 from "./image/mountaine3.jpg"
 import img6 from "./image/music.jpg"
+import img7 from "./image/dom.jpg"
+import img8 from "./image/ben.jpg"
+import img9 from "./image/ben2.jpg"
+import img10 from "./image/int.jpg"
 import { Link, withRouter } from 'react-router-dom'
 
 class Project1 extends Component {
@@ -26,7 +30,7 @@ class Project1 extends Component {
       <div>
 
 <Link to='/'> <div className="exit" onClick={this.Off}>x</div></Link>
-     
+<div className="emptydiv"> </div>
         <div className="pageBackground">
           <p className="paragraph">
             I am a creative technologist. I use leading edge technology to execute
@@ -47,7 +51,7 @@ class Project1 extends Component {
               allowFullScreen></iframe>
           </div>
         </div>
-        <div className="emptydiv"> </div>
+    
         <div className="image-content">
           <img alt="" src={img1} className=" image" />
         </div>
@@ -67,6 +71,21 @@ class Project1 extends Component {
           <img alt="" src={img6} className=" image" />
         </div>
 
+        <div className="image-content">
+          <img alt="" src={img7} className=" image" />
+        </div>
+
+        <div className="image-content">
+          <img alt="" src={img8} className=" image" />
+        </div>
+
+        <div className="image-content">
+          <img alt="" src={img9} className=" image" />
+        </div>
+
+        <div className="image-content">
+          <img alt="" src={img10} className=" image" />
+        </div>
 
 
 

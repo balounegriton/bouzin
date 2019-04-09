@@ -11,6 +11,9 @@ class Landing extends Component {
   scroll2 = () => {
     this.props.parentMethod2();
   };
+  scroll3 = () => {
+    this.props.parentMethod3();
+  };
   hoverOn = () => {
     document.getElementById("videoA").className = "texte-hover-video";
   };
@@ -34,7 +37,7 @@ class Landing extends Component {
       <div className="landing">
         <div>
           <div id="videoA" className="hiding">
-            <div className="dispflex">MOTION DESIGNER</div>
+            <div className="dispflex">MOTION</div>
           </div>
           <video
             className="introVideo"
@@ -52,7 +55,7 @@ class Landing extends Component {
         <div>
           <div id="videoB" className="hiding">
             {" "}
-            <div className="dispflex2">WEB.DESIGNER</div>{" "}
+            <div className="dispflex2">WEB</div>{" "}
           </div>
           <video
             className="introVideo2"
@@ -61,7 +64,7 @@ class Landing extends Component {
             muted
             onMouseEnter={this.hoverOn2}
             onMouseLeave={this.hoverOff}
-          
+            onClick={this.scroll3}
           >
             <source src={ski} type="video/mp4" />
           </video>
@@ -70,7 +73,7 @@ class Landing extends Component {
         <div>
           <div id="videoC" className="hiding">
             {" "}
-            <div className="dispflex3">VIDEO DIRECTOR</div>{" "}
+            <div className="dispflex3">VIDEO</div>{" "}
           </div>
           <video
             className="introVideo3"

@@ -36,8 +36,8 @@ class Video3 extends Component {
 
         <div className="projectInfo">
           {" "}
-          <div className="titreProjet">Titre Du Projet </div>{" "}
-          <div className="titreProjet"> Type </div>
+          <div className="titreProjet"> MOTION REEL </div>{" "}
+          <div className="titreProjet"> ANIMATION / MOTION DESIGN </div>
         </div>
       </div>
     );

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import loop from "./videoProjet/stairsMaster.mp4";
+import loop from "./videoProjet/muralSess.mp4";
 
 class Video4 extends Component {
   componentDidMount = () => {
@@ -15,7 +15,7 @@ class Video4 extends Component {
   pauseVideo = () => {
     // Pause as well
     this.refs.vidRef.pause();
-    document.getElementById("video4").className = "mouseNotHover";
+    document.getElementById("video4").className = "mouseNotHover lighterMode";
   };
 
   render() {
@@ -23,7 +23,7 @@ class Video4 extends Component {
       <div className="colorBackground">
         <video
           id="video4"
-          className="mouseNotHover"
+          className="mouseNotHover lighterMode"
           ref="vidRef"
           src={loop}
           autoPlay
@@ -36,8 +36,8 @@ class Video4 extends Component {
 
         <div className="projectInfo">
           {" "}
-          <div className="titreProjet">Titre Du Projet </div>{" "}
-          <div className="titreProjet"> Type </div>
+          <div className="titreProjet">MURAL LIVE SESSIONS </div>{" "}
+          <div className="titreProjet"> MUSIC VIDEO </div>
         </div>
       </div>
     );

@@ -42,8 +42,8 @@ class Video1 extends Component {
 
         <div className="projectInfo">
           {" "}
-          <div className="titreProjet">Titre Du Projet </div>{" "}
-          <div className="titreProjet"> Type </div>
+          <div className="titreProjet">DEMO REEL </div>{" "}
+          <div className="titreProjet"> VIDEO </div>
         </div>
       </div>
     );
