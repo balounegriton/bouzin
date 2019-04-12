@@ -24,31 +24,25 @@ class Project1 extends Component {
     window.scrollTo(0, 0)
   }
 
-
   render() {
 
     return (
       <div>
- 
+          
+        
 
 <Link to='/'>  <img alt=""  className="exit" onClick={this.Off} src={fleche}  /></Link>
 <div className="emptydiv"> </div>
         <div className="pageBackground">
        <div className="paragraph">
-       {!this.state.language&&
+
           <p >
           I  texte englaiss am a creative technologist. I use leading edge technology to execute
           creative marketing projects. I combine my motion designer and video
           editor background with my programming skills, to bring creative ideas
           to life. My expertise and my passion for visual
-        </p>}
-        {this.state.language&&
-          <p >
-          I  texte francais am a creative technologist. I use leading edge technology to execute
-          creative marketing projects. I combine my motion designer and video
-          editor background with my programming skills, to bring creative ideas
-          to life. My expertise and my passion for visual
-        </p>}
+        </p>
+       
          
          </div> 
         </div>

@@ -59,13 +59,12 @@
 }
 
 .exit{
-    color:rgb(43, 43, 43);
     position: fixed;
-    font-size: 60px;
     z-index: 1000;
-    right: 0;
-    margin-right: 3vw;
+    margin-top: 10px;
+    margin-left: 20px;
     cursor: pointer;
+    height: 30px;
 }
 
 
@@ -78,3 +77,33 @@
     display: flex;
     justify-content: space-around
 }
+
+.language-container{
+    position: fixed;
+    display: flex;
+    right: 0;
+    margin-right:1vw;
+    margin-top:1vh;
+    z-index: 1000;
+    }
+    
+    .language-texte{
+      color: rgb(43, 43, 43);
+      font-size: 20px;
+      cursor: pointer;
+    }
+    
+    .language-slash{
+      color: rgb(43, 43, 43);
+      font-size: 20px;
+      cursor: default;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    
+    .language-texte-selected{
+      color: rgb(43, 43, 43);
+      font-size: 20px;
+      text-decoration: underline; 
+      cursor: default;
+    }

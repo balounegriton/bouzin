@@ -3,8 +3,7 @@ import "./App.css";
 
 class Navbar extends Component {
   state = {
-    open: false,
-    switchLang:false
+    open: false
   };
 componentWillReceiveProps() {
   this.setState({switchLang: this.props.language})
@@ -34,9 +33,10 @@ componentWillReceiveProps() {
       <div id="nav" className="nav">
 
           <div id="about" className="AboutFermer">
-         
+      
+       
           <p >
-          I  texte fraincIS am a creative technologist. I use leading edge technology to execute
+          I  texte english am a creative technologist. I use leading edge technology to execute
           creative marketing projects. I combine my motion designer and video
           editor background with my programming skills, to bring creative ideas
           to life. My expertise and my passion for visual

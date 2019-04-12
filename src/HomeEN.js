@@ -1,20 +1,20 @@
 import React, { Component } from "react";
 import "./App.css";
-import Landing from "./Landing.js";
-import Navbar from "./Navbar.js";
-import Video1 from "./Video1.js";
-import Video2 from "./Video2.js";
-import Video3 from "./Video3.js";
-import Video4 from "./Video4.js";
-import Video5 from "./Video5.js";
-import Video6 from "./Video6.js";
-import Video7 from "./Video7.js";
+import Landing from "./LandingEN.js";
+import Navbar from "./NavbarEN.js";
+import Video1 from "./Video1EN.js";
+import Video2 from "./Video2EN.js";
+import Video3 from "./Video3EN.js";
+import Video4 from "./Video4EN.js";
+import Video5 from "./Video5EN.js";
+import Video6 from "./Video6EN.js";
+import Video7 from "./Video7EN.js";
 import scrollToComponent from "react-scroll-to-component";
 import { Link, withRouter } from 'react-router-dom'
 
 class Home extends Component {
   state = {
-    language: true
+ 
   }
 
 
@@ -50,14 +50,14 @@ class Home extends Component {
   };
 
 
- 
+
   render() {
 
     return (
 
 
       <div>
-   
+     
         <Navbar  />
 
         <Landing parentMethod={this.scrollMotion} parentMethod2={this.scrollVideo} parentMethod3={this.scrollWeb} />

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './style.css';
-
+import fleche from "./image/fleche.png"
 import { Link, withRouter } from 'react-router-dom'
 
 class Project2 extends Component {
@@ -16,7 +16,7 @@ class Project2 extends Component {
     return (
       <div>
 
-<Link to='/'> <div className="exit" onClick={this.Off}>x</div></Link>
+<Link to='/'>  <img alt=""  className="exit" onClick={this.Off} src={fleche}  /></Link>
 <div className="emptydiv"> </div>
         <div className="pageBackground">
           <p className="paragraph">
@@ -28,7 +28,7 @@ class Project2 extends Component {
         </div>
         <div className="video-wrapper">
           <div className="youtube">
-            <iframe src="https://player.vimeo.com/video/248658478"
+            <iframe src="https://player.vimeo.com/video/330112558" 
               title="demo"
               className=""
               frameBorder="0"
@@ -54,7 +54,7 @@ class Project2 extends Component {
 
         <div className="video-wrapper">
           <div className="youtube">
-            <iframe src="https://player.vimeo.com/video/248658478"
+            <iframe src="https://player.vimeo.com/video/330112945"
               title="demo"
               className=""
               frameBorder="0"
