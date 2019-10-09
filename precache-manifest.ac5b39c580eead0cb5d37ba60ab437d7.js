@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/bouzin/static/media/mountaine.6a4ab5b9.jpg"
   },
   {
-    "revision": "cd402184983957e7dbbe",
-    "url": "/bouzin/static/css/main.61aa4b31.chunk.css"
+    "revision": "f1a14ff88e7e5165b691",
+    "url": "/bouzin/static/css/main.f094ce2a.chunk.css"
   },
   {
     "revision": "ddfa6e778f4e8f13a729",
     "url": "/bouzin/static/js/runtime~main.67da9ce3.js"
   },
   {
-    "revision": "41d0e8ed36e446b0067b",
-    "url": "/bouzin/static/js/2.d249316a.chunk.js"
+    "revision": "1b6cb051b8e07e08d6ea",
+    "url": "/bouzin/static/js/2.bd3e2837.chunk.js"
   },
   {
     "revision": "ab27e875ffc7ab692899490f2b883ec5",
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "url": "/bouzin/static/media/stairsmaster.2567c44b.mp4"
   },
   {
-    "revision": "cd402184983957e7dbbe",
-    "url": "/bouzin/static/js/main.403df2ac.chunk.js"
+    "revision": "f1a14ff88e7e5165b691",
+    "url": "/bouzin/static/js/main.926f3eb4.chunk.js"
   },
   {
     "revision": "9982b125bfde46349339fc1dff71ea36",
@@ -148,7 +148,7 @@ self.__precacheManifest = [
     "url": "/bouzin/static/media/snowrail.648b8de2.jpg"
   },
   {
-    "revision": "d33ae77c1f21cbab1e194870bb87e8fa",
+    "revision": "3bb99a37fa4419bd6ec720e1fd2d0060",
     "url": "/bouzin/index.html"
   }
 ];
