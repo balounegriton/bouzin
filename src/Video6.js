@@ -36,7 +36,7 @@ class Video6 extends Component {
 
         <div className="projectInfo">
           {" "}
-          <div className="titreProjet">WEB DEVLOPEMENT</div>{" "}
+          <div className="titreProjet">WEB </div>{" "}
           <div className="titreProjet"> JAVASCRIPT / REACT </div>
         </div>
       </div>

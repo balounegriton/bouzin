@@ -52,7 +52,7 @@
 }
 
 .paragraph{
-    color:rgb(43, 43, 43);
+    color: rgb(124, 42, 42);
   font-size: 70px;
   margin-left: 60px;
   margin-right: 60px
@@ -69,7 +69,7 @@
 
 
 .playGame{
-    color:rgb(43, 43, 43);
+    color: rgb(124, 42, 42);
     font-size: 60px;
     width: 100vw;
     height: 100px;
@@ -88,13 +88,13 @@
     }
     
     .language-texte{
-      color: rgb(43, 43, 43);
+    color:  rgb(124, 42, 42);
       font-size: 20px;
       cursor: pointer;
     }
     
     .language-slash{
-      color: rgb(43, 43, 43);
+      color:  rgb(124, 42, 42);
       font-size: 20px;
       cursor: default;
       margin-left: 5px;
@@ -102,7 +102,7 @@
     }
     
     .language-texte-selected{
-      color: rgb(43, 43, 43);
+      color:  rgb(124, 42, 42);
       font-size: 20px;
       text-decoration: underline; 
       cursor: default;

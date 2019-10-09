@@ -29,7 +29,7 @@ class Project3 extends Component {
         <div className="video-wrapper">
           <div className="youtube">
             <iframe src="https://player.vimeo.com/video/330110955" 
-              title="demo"
+              title="demo9"
               className=""
               frameBorder="0"
 
@@ -42,7 +42,7 @@ class Project3 extends Component {
         <div className="video-wrapper">
           <div className="youtube">
             <iframe src="https://player.vimeo.com/video/237827592"
-              title="demo"
+              title="demo10"
               className=""
               frameBorder="0"
 

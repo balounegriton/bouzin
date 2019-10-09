@@ -37,7 +37,7 @@ class Video4 extends Component {
         <div className="projectInfo">
           {" "}
           <div className="titreProjet">MURAL LIVE SESSIONS </div>{" "}
-          <div className="titreProjet"> MUSIC VIDEO </div>
+          <div className="titreProjet"> VIDÉO DE MUSIQUE </div>
         </div>
       </div>
     );

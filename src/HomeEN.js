@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
 import Landing from "./LandingEN.js";
-import Navbar from "./NavbarEN.js";
 import Video1 from "./Video1EN.js";
 import Video2 from "./Video2EN.js";
 import Video3 from "./Video3EN.js";
@@ -58,8 +57,7 @@ class Home extends Component {
 
       <div>
      
-        <Navbar  />
-
+    
         <Landing parentMethod={this.scrollMotion} parentMethod2={this.scrollVideo} parentMethod3={this.scrollWeb} />
 
         <Link to="/demo"><div className="container-video" >

@@ -37,7 +37,7 @@ class Video5 extends Component {
         <div className="projectInfo">
           {" "}
           <div className="titreProjet">UNMARKED</div>{" "}
-          <div className="titreProjet"> BACKCONTRY SKI</div>
+          <div className="titreProjet"> SKI D'ARRIÈRE PAYS</div>
         </div>
       </div>
     );

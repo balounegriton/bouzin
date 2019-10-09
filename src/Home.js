@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import Landing from "./Landing.js";
-import Navbar from "./Navbar.js";
+import About from "./about/About.js";
 import Video1 from "./Video1.js";
 import Video2 from "./Video2.js";
 import Video3 from "./Video3.js";
@@ -58,10 +58,10 @@ class Home extends Component {
 
       <div>
    
-        <Navbar  />
+  
 
         <Landing parentMethod={this.scrollMotion} parentMethod2={this.scrollVideo} parentMethod3={this.scrollWeb} />
-
+        <About />
         <Link to="/demo"><div className="container-video" >
           <Video1 ref={section => {
             this.sectionDemo = section;
@@ -85,10 +85,12 @@ class Home extends Component {
         <Link to='/mural'  >
           <div className="container-video">
             <Video4
-
+ 
             />
-          </div>
+           </div>
         </Link>
+
+        
         <Link to='/unmarked'  >
           <div className="container-video">
             <Video5 />

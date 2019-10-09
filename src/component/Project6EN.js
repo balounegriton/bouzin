@@ -16,15 +16,17 @@ class Project6 extends Component {
     return (
       <div>
 
-<Link to='/'>  <img alt=""  className="exit" onClick={this.Off} src={fleche}  /></Link>
+        <Link to='/'>  <img alt="" className="exit" onClick={this.Off} src={fleche} /></Link>
         <div className="emptydiv"> </div>
         <div className="pageBackground">
           <p className="paragraph">
-            I am a creative technologist. I use leading edge technology to execute
-            creative marketing projects. I combine my motion designer and video
-            editor background with my programming skills, to bring creative ideas
-          to life. My expertise and my passion for visual{" "}
-          </p>
+
+            I have strong knowledge in HTML5, CSS3, Javascript.
+             I use technologies like React.js, Angular.js, Node
+              and Firebase to create web / mobile web app that
+              run smoothly. I have strong skills and interest in UI/UX,
+                and always drive my decisions to provide the best to the end users.
+           </p>
         </div>
         <div className="video-wrapper">
           <div className="youtube">
@@ -68,7 +70,7 @@ class Project6 extends Component {
           </div>
 
           <div className="playGame">
-           <a href="http://wndrs.ca/game/">PLAY GAME</a>   <a href="http://wndrs.ca/game/">PLAY GAME</a>   <a href="http://wndrs.ca/game/">PLAY GAME</a>   <a href="http://wndrs.ca/game/">PLAY GAME</a>   
+            <a href="http://wndrs.ca/game/">PLAY GAME</a>   <a href="http://wndrs.ca/game/">PLAY GAME</a>   <a href="http://wndrs.ca/game/">PLAY GAME</a>   <a href="http://wndrs.ca/game/">PLAY GAME</a>
           </div>
         </div>
 

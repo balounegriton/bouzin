@@ -2,15 +2,22 @@ import React, { Component } from "react";
 import "./App.css";
 import loop from "./videoProjet/loop.mp4";
 
+// import { isMobile } from 'react-device-detect';
+
 
 
 class Video1 extends Component {
+  state = {
+    mobile: false
+  }
+  componentWillMount = () => {
+
+  }
 
   componentDidMount = () => {
     this.refs.vidRef.pause();
+
   }
-
-
 
   playVideo = () => {
     this.refs.vidRef.play();
@@ -41,7 +48,7 @@ class Video1 extends Component {
         />
 
         <div className="projectInfo">
-          {" "}
+
           <div className="titreProjet">DEMO REEL </div>
           <div className="titreProjet"> VIDEO </div>
         </div>

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import { HashRouter, Route, Switch, Link, withRouter } from 'react-router-dom'
+import { HashRouter, Route, Switch  } from 'react-router-dom'
 import Home from "./Home.js";
 import HomeEN from "./HomeEN.js";
 import Project1 from './component/Project1.js'

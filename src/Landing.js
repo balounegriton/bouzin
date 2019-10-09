@@ -5,6 +5,8 @@ import ski from "./videoIntro/ski.mp4";
 import kite from "./videoIntro/kite.mp4";
 
 class Landing extends Component {
+  
+  
   scroll = () => {
     this.props.parentMethod();
   };
@@ -14,6 +16,8 @@ class Landing extends Component {
   scroll3 = () => {
     this.props.parentMethod3();
   };
+
+
   hoverOn = () => {
     document.getElementById("videoA").className = "texte-hover-video";
 
@@ -38,7 +42,7 @@ class Landing extends Component {
       <div className="landing">
         <div>
           <div id="videoA" className="hiding">
-            <div className="dispflex">MOTION</div>
+            <div className="dispflex">ABOUT</div>
           </div>
           <video
             className="introVideo"
@@ -56,7 +60,7 @@ class Landing extends Component {
         <div>
           <div id="videoB" className="hiding">
             {" "}
-            <div className="dispflex2">WEB</div>{" "}
+            <div className="dispflex2">DEMO</div>{" "}
           </div>
           <video
             className="introVideo2"
@@ -74,7 +78,7 @@ class Landing extends Component {
         <div>
           <div id="videoC" className="hiding">
             {" "}
-            <div className="dispflex3">VIDEO</div>{" "}
+            <div className="dispflex3">PORTFOLIO</div>{" "}
           </div>
           <video
             className="introVideo3"
@@ -90,7 +94,7 @@ class Landing extends Component {
         </div>
 
         <div id="titrePortfolio" className="titrePortfolio">
-          NOÉ PROVOST
+          BASILE
         </div>
       </div>
     );

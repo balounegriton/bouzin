@@ -20,10 +20,12 @@ class Project6 extends Component {
         <div className="emptydiv"> </div>
         <div className="pageBackground">
           <p className="paragraph">
-            I am a creative technologist. I use leading edge technology to execute
-            creative marketing projects. I combine my motion designer and video
-            editor background with my programming skills, to bring creative ideas
-          to life. My expertise and my passion for visual{" "}
+          J'ai de forte conaissance en HTML5, CSS3, Javascript.
+          J'utilise React.js, Angular.js, Node et Firebase 
+         pour créer des web app qui fonctionne aisément. J'ai beaucoup d'intéret
+         et de conaissance en UI/UX, et je prend toujours mes decision pour 
+        donner la meilleur expérience possible au end user.
+       
           </p>
         </div>
         <div className="video-wrapper">
@@ -68,7 +70,7 @@ class Project6 extends Component {
           </div>
 
           <div className="playGame">
-           <a href="http://wndrs.ca/game/">PLAY GAME</a>   <a href="http://wndrs.ca/game/">PLAY GAME</a>   <a href="http://wndrs.ca/game/">PLAY GAME</a>   <a href="http://wndrs.ca/game/">PLAY GAME</a>   
+           <a className="black" href="http://wndrs.ca/game/">PLAY GAME</a>   <a href="http://wndrs.ca/game/" className="black">PLAY GAME</a>   <a  className="black" href="http://wndrs.ca/game/">PLAY GAME</a>   <a className="black" href="http://wndrs.ca/game/">PLAY GAME</a>   
           </div>
         </div>
 
